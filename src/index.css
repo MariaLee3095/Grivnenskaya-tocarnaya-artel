@@ -1673,7 +1673,7 @@ button {
 
   .hero-intro-div {
     margin-top: 260px;
-    align-items: baseline;
+    align-items: center;
     gap: 0;
   }
 
@@ -1682,10 +1682,10 @@ button {
   }
 
   .hero-intro {
-    margin-top: 50px;
-    padding: 15px;
-    width: 100%;
-    left: -8%;
+    margin-top: 40px;
+    padding: 5px;
+    width: 70%;
+    margin-left: 53px;
   }
   .hero-intro p {
     font-size: 13px !important;
@@ -1891,6 +1891,9 @@ button {
     padding: 30px;
   }
 
+  .footer-image {
+    margin-right: 15px;
+  }
   .footer-logo img {
     max-width: 140px;
     max-height: 50px;
@@ -1899,5 +1902,6 @@ button {
   .footer-vk {
     width: 36px;
     height: 36px;
+    margin-right: 15px;
   }
 }

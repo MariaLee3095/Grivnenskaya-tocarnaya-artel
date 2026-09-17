@@ -127,11 +127,15 @@ export default function ContactForm() {
         <h2 className="section-title-contacts">
           Давайте обсудим будущий проект
         </h2>
-        <img src="/backgrounds/6.png" alt="" className="contact-note-img" />
+        <img
+          src={`${import.meta.env.BASE_URL}backgrounds/6.png`}
+          alt=""
+          className="contact-note-img"
+        />
 
         <div className="button-arrows-div">
           <img
-            src="/backgrounds/5.png"
+            src={`${import.meta.env.BASE_URL}backgrounds/5.png`}
             alt=""
             className="button-arrows-image"
           />

@@ -3,8 +3,6 @@ import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import carousel from "../../data/carousel.";
 
-
-
 export default function MyCarousel() {
   return (
     <div className="site-back">

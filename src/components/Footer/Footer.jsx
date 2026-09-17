@@ -7,9 +7,12 @@ export default function Footer() {
         {/* Логотип */}
         <div className="footer-logo">
           <a href="/" aria-label="На главную">
-            <img src="/logo/1.svg" alt="Логотип" />
+            <img src={`${import.meta.env.BASE_URL}logo/1.svg`} alt="Логотип" />
           </a>
-          <img className="footer-image-10" src="/backgrounds/10.png"/>
+          <img
+            className="footer-image-10"
+            src={`${import.meta.env.BASE_URL}backgrounds/10.png`}
+          />
         </div>
 
         {/* Навигация */}
@@ -41,8 +44,15 @@ export default function Footer() {
             rel="noopener noreferrer"
             aria-label="Мы ВКонтакте"
           >
-            <img className="footer-vk" src="/logo/13.svg" alt="ВКонтакте" />
-            <img className="footer-image" src="/backgrounds/9.png" />
+            <img
+              className="footer-vk"
+              src={`${import.meta.env.BASE_URL}logo/13.svg`}
+              alt="ВКонтакте"
+            />
+            <img
+              className="footer-image"
+              src={`${import.meta.env.BASE_URL}backgrounds/9.png`}
+            />
           </a>
         </div>
       </div>

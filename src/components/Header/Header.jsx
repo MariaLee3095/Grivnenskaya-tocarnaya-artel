@@ -9,7 +9,7 @@ export default function Header() {
         <div className="logo">
           <span>
             <a href="/">
-              <img src="/logo/1.svg" />
+              <img src={`${import.meta.env.BASE_URL}logo/1.svg`} />
             </a>
           </span>
         </div>
