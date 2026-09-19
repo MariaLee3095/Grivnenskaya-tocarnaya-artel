@@ -3,24 +3,37 @@ import { useState } from "react";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleScroll = (e, id) => {
+    e.preventDefault();
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+
+      window.history.pushState(null, null, `#${id}`);
+    }
+  };
+
   return (
     <div className="header-box">
       <header className="header">
         <div className="logo">
           <span>
-            <a href="/">
-              <img src={`${import.meta.env.BASE_URL}logo/1.svg`} />
-            </a>
+            <img src={`${import.meta.env.BASE_URL}logo/1.svg`} />
           </span>
         </div>
 
         <nav className="nav-box">
-          <a href="#about" style={{ textDecoration: "none", color: "#2a2a2a" }}>
+          <a
+            href="#about"
+            onClick={(e) => handleScroll(e, "about")}
+            style={{ textDecoration: "none", color: "#2a2a2a" }}
+          >
             О нас
           </a>
 
           <a
             href="#services"
+            onClick={(e) => handleScroll(e, "services")}
             style={{ textDecoration: "none", color: "#2a2a2a" }}
           >
             Мастер-классы
@@ -28,6 +41,7 @@ export default function Header() {
 
           <a
             href="#gallery"
+            onClick={(e) => handleScroll(e, "gallery")}
             style={{ textDecoration: "none", color: "#2a2a2a" }}
           >
             Галерея
@@ -35,6 +49,7 @@ export default function Header() {
 
           <a
             href="#reviews"
+            onClick={(e) => handleScroll(e, "reviews")}
             style={{ textDecoration: "none", color: "#2a2a2a" }}
           >
             Отзывы
@@ -42,6 +57,7 @@ export default function Header() {
 
           <a
             href="#contacts"
+            onClick={(e) => handleScroll(e, "contacts")}
             style={{ textDecoration: "none", color: "#2a2a2a" }}
           >
             Контакты
@@ -77,36 +93,36 @@ export default function Header() {
         <nav className={`mobile-menu ${isOpen ? "open" : ""}`}>
           <a
             href="#about"
+            onClick={(e) => handleScroll(e, "about")}
             style={{ textDecoration: "none", color: "#2a2a2a" }}
-            onClick={() => setIsOpen(false)}
           >
-            О нас
+            {/*onClick={() => setIsOpen(false)}*/}О нас
           </a>
           <a
             href="#services"
+            onClick={(e) => handleScroll(e, "services")}
             style={{ textDecoration: "none", color: "#2a2a2a" }}
-            onClick={() => setIsOpen(false)}
           >
             Мастер-классы
           </a>
           <a
             href="#gallery"
+            onClick={(e) => handleScroll(e, "gallery")}
             style={{ textDecoration: "none", color: "#2a2a2a" }}
-            onClick={() => setIsOpen(false)}
           >
             Галерея
           </a>
           <a
             href="#reviews"
+            onClick={(e) => handleScroll(e, "reviews")}
             style={{ textDecoration: "none", color: "#2a2a2a" }}
-            onClick={() => setIsOpen(false)}
           >
             Отзывы
           </a>
           <a
             href="#contacts"
+            onClick={(e) => handleScroll(e, "contacts")}
             style={{ textDecoration: "none", color: "#2a2a2a" }}
-            onClick={() => setIsOpen(false)}
           >
             Контакты
           </a>

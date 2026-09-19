@@ -288,7 +288,7 @@ export default function ContactForm() {
               />
 
               <span>
-                Я <a href="/privacy_policy">соглаcен(а)</a> на обработку
+                Я <a href="#/privacy_policy">соглаcен(а)</a> на обработку
                 персональных данных.
               </span>
             </label>
