@@ -1714,7 +1714,7 @@ button {
 
   .burger {
     display: block;
-    margin-left: 50%;
+    margin-left: 47%;
     margin-top: 1%;
   }
   .mobile-menu {
@@ -1816,7 +1816,7 @@ button {
     width: 100%;
   }
   .card-services .card-body {
-    height: 215px;
+    height: 235px;
     margin: 0 10px;
   }
   .list-group {
@@ -1858,7 +1858,7 @@ button {
   }
 
   #contacts {
-    padding: 15px;
+    padding: 19px;
   }
 
   .contact-note-page {
