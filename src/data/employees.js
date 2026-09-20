@@ -3,7 +3,7 @@ const employees = [
     id: 1,
     name: "Алексей Моторнов",
     position: "Ведущий мастер",
-    photo: `${import.meta.env.BASE_URL}img/1.jpg`,
+    photo: `${import.meta.env.BASE_URL}img/1.webp`,
     description:
       "Опыт токарной обработки более 10 лет, релевантный опыт работы на предприятиях более 6 лет.",
   },
@@ -11,7 +11,7 @@ const employees = [
     id: 2,
     name: "Мария Ли",
     position: "Художник, дизайнер",
-    photo: `${import.meta.env.BASE_URL}img/2.jpg`,
+    photo: `${import.meta.env.BASE_URL}img/2.webp`,
     description:
       "Занимается проектированием внешнего вида изделий и поиском колористических решений.",
   },
@@ -19,7 +19,7 @@ const employees = [
     id: 3,
     name: "Евгений Панин",
     position: "Помощник мастера",
-    photo: `${import.meta.env.BASE_URL}img/3.jpg`,
+    photo: `${import.meta.env.BASE_URL}img/3.webp`,
     description: "Специализируется на столярных работах.",
   },
 ];

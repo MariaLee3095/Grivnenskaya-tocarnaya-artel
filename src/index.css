@@ -470,7 +470,7 @@ button {
   opacity: 1;
 }
 .site-back {
-  background-image: url("/backgrounds/1.svg");
+  background-image: url("/backgrounds/1.webp");
   background-position: center;
   background-size: cover;
 }
@@ -517,7 +517,7 @@ button {
   --border: #e6dfd4;
   --green: #4d8a62;
   padding-top: 20px;
-  background-image: url("/backgrounds/1.svg");
+  background-image: url("/backgrounds/1.webp");
   background-size: cover;
   color: var(--text);
 }

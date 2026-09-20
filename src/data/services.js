@@ -1,6 +1,6 @@
 const services = [
   {
-    image: `${import.meta.env.BASE_URL}img/5.png`,
+    image: `${import.meta.env.BASE_URL}img/5.webp`,
     alt: "Персональный мастер-класс",
     title: "Персональный мастер-класс",
     level: "Уровень: с нуля.",
@@ -15,7 +15,7 @@ const services = [
   },
 
   {
-    image: `${import.meta.env.BASE_URL}img/6.jpg`,
+    image: `${import.meta.env.BASE_URL}img/6.webp`,
     alt: "Групповой мастер-класс",
     title: "Групповой мастер-класс",
     level: "Уровень: с нуля.",

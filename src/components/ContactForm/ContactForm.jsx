@@ -128,7 +128,7 @@ export default function ContactForm() {
           Давайте обсудим будущий проект
         </h2>
         <img
-          src={`${import.meta.env.BASE_URL}backgrounds/6.png`}
+          src={`${import.meta.env.BASE_URL}backgrounds/6.webp`}
           alt=""
           className="contact-note-img"
         />

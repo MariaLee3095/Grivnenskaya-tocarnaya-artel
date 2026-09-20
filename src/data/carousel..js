@@ -2,115 +2,115 @@ const carousel = [
   {
     id: 1,
     name: "Набор солдатиков",
-    image: `${import.meta.env.BASE_URL}slides/1.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/1.webp`,
     description:
       "Стилизованные образы рядовых различных военных полков времён Отечественной войны 1812 года. Слева-направо: 1. Рядовой Уланского полка. 2. Рядовой Преображенского полка, 3. Казак, 4. Гренадёр, 5. Ратник ополчения, 6. Бомбардир.",
   },
   {
     id: 2,
     name: "Набор Морковь",
-    image: `${import.meta.env.BASE_URL}slides/2.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/2.webp`,
     description:
       "Игра для развития мелкой моторики у самых маленьких: задача малыша – нанизать морковь на верёвочку.",
   },
   {
     id: 3,
     name: "Копии игрушек К. Е. Глинтерника",
-    image: `${import.meta.env.BASE_URL}slides/3.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/3.webp`,
     description:
       "Изготовлены на заказ. Слева-направо: Остап Бендер, две девочки в зимних полушубках, цирковой силач.",
   },
   {
     id: 4,
     name: "Копии игрушек К. Е. Глинтерника",
-    image: `${import.meta.env.BASE_URL}slides/4.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/4.webp`,
     description:
       "Изготовлены на заказ. Слева-направо: рядовой Семёновского гвардейского полка 1703-1720 гг., солдат британской гвардии, рыцарь в высоком шлеме и кольчуге.",
   },
   {
     id: 5,
     name: "Набор бирюлек",
-    image: `${import.meta.env.BASE_URL}slides/5.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/5.webp`,
     description: "Изготовлены на заказ для краеведческого музея г. Подольск.",
   },
   {
     id: 6,
     name: "Набор Лес",
-    image: `${import.meta.env.BASE_URL}slides/6.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/6.webp`,
     description: "Неокрашенный набор для творчества.",
   },
   {
     id: 7,
     name: "Набор Грибы",
-    image: `${import.meta.env.BASE_URL}slides/7.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/7.webp`,
     description:
       "Счётный материал, наглядно демонстрирует различия между видами грибов.",
   },
   {
     id: 8,
     name: "Набор яиц",
-    image: `${import.meta.env.BASE_URL}slides/8.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/8.webp`,
     description:
       "Счётный материал, упрощённый вариант: покрытие одним цветом и акриловым лаком.",
   },
   {
     id: 9,
     name: "Бильбоке",
-    image: `${import.meta.env.BASE_URL}slides/9.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/9.webp`,
     description:
       "Игрушка для развития ловкости. Диаметр чаши 30мм., общая высота 160мм.",
   },
   {
     id: 10,
     name: "Волчки маленькие",
-    image: `${import.meta.env.BASE_URL}slides/10.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/10.webp`,
     description:
       "Запускаются вручную. Диаметр 50мм., время вращения более 1 минуты.",
   },
   {
     id: 11,
     name: "Заготовка плафона",
-    image: `${import.meta.env.BASE_URL}slides/11.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/11.webp`,
     description:
       "Вдохновлён формами и отделкой куполов деревянного храма на о.Кижи. Идея и исполнение Евгения Панина.",
   },
   {
     id: 12,
     name: "Браслеты",
-    image: `${import.meta.env.BASE_URL}slides/12.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/12.webp`,
     description: "Заготовки под роспись.",
   },
   {
     id: 13,
     name: "Складное кресло савонарола",
-    image: `${import.meta.env.BASE_URL}slides/13.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/13.webp`,
     description:
       "Такие кресла делали в Италии времён эпохи Возрождения. Данное кресло выполнено Евгением из берёзовой фанеры, покрыто тунговым маслом.",
   },
   {
     id: 14,
     name: "Салатник",
-    image: `${import.meta.env.BASE_URL}slides/14.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/14.webp`,
     description:
       "Выточил и оформил резьбой Евгений Панин. Пропитан тунговым маслом, глубоко проникающим в поры древесины и создающим прочное, водоотталкивающее матовое покрытие.",
   },
   {
     id: 15,
     name: "Плафон-купол, роспись изнутри",
-    image: `${import.meta.env.BASE_URL}slides/15.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/15.webp`,
     description:
       "Вдохновлена орнаментами на элементах убранства старинных храмов. Идею Евгения воплотила Мария.",
   },
   {
     id: 16,
     name: "Заготовка трёхместной матрёшки",
-    image: `${import.meta.env.BASE_URL}slides/16.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/16.webp`,
     description: "Заготовка для творчества, выточена Евгением Паниным.",
   },
   {
     id: 17,
     name: "Гусары",
-    image: `${import.meta.env.BASE_URL}slides/17.jpg`,
+    image: `${import.meta.env.BASE_URL}slides/17.webp`,
     description:
       "Сказочные гусары с вымышленной атрибутикой формы. Выточены Алексеем, оформлены Марией.",
   },
