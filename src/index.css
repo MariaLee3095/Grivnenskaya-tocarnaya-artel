@@ -37,13 +37,13 @@ body {
   margin: 0;
   width: 100%;
   min-width: 320px;
-  background-image: url("/backgrounds/8.svg");
+  background-image: url("/backgrounds/8.webp");
   background-size: 100%;
 }
 .site-back-hero {
   min-height: 100vh;
   height: auto;
-  background-image: url("/backgrounds/3_11.webp");
+  background-image: url("/backgrounds/3_1.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -57,7 +57,7 @@ body {
   text-transform: uppercase;
 }
 .header-box {
-  background-image: url("/backgrounds/8_11.webp");
+  background-image: url("/backgrounds/8.webp");
   background-size: cover;
   border-bottom: 1px solid rgb(152, 117, 105);
   box-shadow: 0 2px 5px rgb(74, 66, 62);
@@ -206,7 +206,7 @@ button {
 
 .about {
   padding: 35px 0 35px;
-  background-image: url("/backgrounds/2 220602.png");
+  background-image: url("/backgrounds/2 220602.webp");
   background-size: cover;
   border-top: 2px solid rgb(165, 121, 105);
   border-bottom: 2px solid rgb(165, 121, 105);
@@ -1082,7 +1082,7 @@ button {
 .footer {
   width: 100%;
 
-  background-image: url("/backgrounds/2 220602.png");
+  background-image: url("/backgrounds/2 220602.webp");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top;
@@ -1210,7 +1210,7 @@ button {
   place-content: center;
   background-image:
     linear-gradient(rgba(250, 250, 250, 0.8), rgba(255, 105, 36, 0.3)),
-    url("/backgrounds/8.svg");
+    url("/backgrounds/8.webp");
   min-height: 100dvh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1230,7 +1230,7 @@ button {
   place-content: center;
   background-image:
     linear-gradient(rgba(250, 250, 250, 0.8), rgba(255, 105, 36, 0.3)),
-    url("/backgrounds/8.svg");
+    url("/backgrounds/8.webp");
   min-height: 100dvh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1288,23 +1288,11 @@ button {
     font-size: 54px !important;
     line-height: 1;
   }
-  /* .hero-intro-div {
-    gap: 10px;
-    margin-top: 250px;
-  }*/
 
   .hero-intro-div .button {
     margin-left: 5px;
   }
-  /*.hero-intro {
-    margin-left: 5px;
-    border-radius: 25px;
-    padding: 10px;
-    max-height: 250px;
-    max-width: 250px;
-    background-color: rgba(171, 171, 171, 0.2);
-    backdrop-filter: blur(3px);
-  }*/
+
   .hero-intro p {
     font-size: 18px !important;
   }
@@ -1320,15 +1308,6 @@ button {
     padding: 10px 0;
   }
 
-  /*.hero-intro-border {
-    margin: 0 0 10px;
-    padding: -10px;
-    width: 100%;
-  }
-  .hero-intro-image {
-    left: 24%;
-  }
-*/
   .statistics-graphic {
     max-width: 900px;
     margin: 50px auto;
