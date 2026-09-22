@@ -1,6 +1,21 @@
 import { motion } from "motion/react";
+import { useEffect } from "react";
 import Header from "../Header/Header";
 import Button from "../Button/Button";
+
+function Hero() {
+  useEffect(() => {
+    const link = document.createElement("link");
+    link.rel = "preload";
+    link.as = "image";
+    link.href = "/backgrounds/3_1.webp";
+
+    document.head.appendChild(link);
+
+    return () => {
+      document.head.removeChild(link);
+    };
+    }, []);}
 
 export default function HeroSection() {
   const handleScroll = (e, id) => {
@@ -12,6 +27,7 @@ export default function HeroSection() {
       window.history.pushState(null, null, `#${id}`);
     }
   };
+
   return (
     <section id="home" className="site-back-hero">
       <div>
