@@ -13,11 +13,7 @@ export default function HeroSection() {
     }
   };
   return (
-    <section
-      id="home"
-      className="site-back-hero"
-      style={{ backgroundSize: "cover" }}
-    >
+    <section id="home" className="site-back-hero" fetchPriority="high">
       <div>
         <Header />
         <motion.div
@@ -35,7 +31,7 @@ export default function HeroSection() {
 
           <div className="hero-intro-div">
             <div className="hero-intro-border">
-              <div className="hero-intro-image" />
+              <div className="hero-intro-image" fetchPriority="high" />
               <div className="hero-intro">
                 <p>
                   Изготавливаем уникальные{" "}
