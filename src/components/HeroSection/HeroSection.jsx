@@ -13,7 +13,7 @@ export default function HeroSection() {
     }
   };
   return (
-    <section id="home" className="site-back-hero" fetchPriority="high">
+    <section id="home" className="site-back-hero">
       <div>
         <Header />
         <motion.div

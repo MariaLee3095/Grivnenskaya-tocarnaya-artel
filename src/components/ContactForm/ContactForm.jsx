@@ -131,7 +131,6 @@ export default function ContactForm() {
           src={`${import.meta.env.BASE_URL}backgrounds/6.webp`}
           alt=""
           className="contact-note-img"
-          fetchPriority="high"
         />
 
         <div className="button-arrows-div">

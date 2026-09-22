@@ -40,7 +40,6 @@ export default function AboutSection() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.05 }}
       transition={{ duration: 0.3, ease: "easeOut" }}
-      fetchPriority="high"
     >
       <h2 className="section-title">О нас</h2>
 
