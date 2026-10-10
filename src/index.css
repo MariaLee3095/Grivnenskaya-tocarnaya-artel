@@ -28,6 +28,7 @@
 
 * {
   box-sizing: border-box;
+  outline: 1px solid red;
 }
 html {
   scroll-behavior: smooth;
@@ -184,12 +185,12 @@ button {
   margin-left: 20px;
 
   background-color: rgba(171, 171, 171, 0.2);
-  backdrop-filter: blur(5px) !important;
+  backdrop-filter: blur(5px);
   border-radius: 40px;
 }
 .hero-intro p {
   color: #f0f0f0 !important;
-  font-size: 22px !important;
+  font-size: 21px !important;
   text-align: center;
   hyphens: none;
   margin: 0;
@@ -197,14 +198,19 @@ button {
 
 #home h1 {
   color: #f0f0f0;
-  text-shadow: 0 10px 50px rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   font-weight: lighter;
   text-transform: uppercase;
   margin: 0 25px;
-  font-size: clamp(50px, 5vw, 94px);
+  font-size: clamp(28px, 7vw, 94px);
   line-height: 1.05;
 }
-
+h2,
+h3,
+h4,
+h5 {
+  font-variant: small-caps;
+}
 .about {
   padding: 35px 0 35px;
   background-image: url("/backgrounds/2 220602.webp");
@@ -783,12 +789,12 @@ button {
 .button {
   position: relative;
   z-index: 1;
-  min-height: 50px;
+  min-height: 40px;
   background: #ff5944;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0 23px;
+  padding: 0 20px;
   border-radius: 999px;
   cursor: pointer;
   font-weight: 750;
@@ -1060,7 +1066,7 @@ button {
 
   cursor: pointer;
 
-  z-index: 99999;
+  z-index: 1000;
 
   transition: transform 0.3s ease;
 }
@@ -1073,10 +1079,6 @@ button {
   display: block;
   align-items: center;
   margin-bottom: 7px;
-}
-
-.scroll-top:hover {
-  transform: translateY(-3px);
 }
 
 /*Футер*/
@@ -1498,10 +1500,6 @@ button {
     min-height: 100vh;
     height: auto;
   }
-  #home h1 {
-    font-size: 48px !important;
-    line-height: 1;
-  }
 
   .hero-intro-image {
     top: 55%;
@@ -1701,20 +1699,25 @@ button {
 
   .hero-intro-div {
     margin-top: 260px;
-    align-items: center;
     gap: 0;
+    margin-left: 0;
   }
-
+  .hero-intro {
+    margin-top: 40px;
+    padding: 10px;
+  }
   .hero-intro-image {
     display: none;
   }
 
-  .hero-intro {
-    margin-top: 40px;
-    padding: 5px;
-    width: 70%;
-    margin-left: 53px;
+  .scroll-top {
+    right: 20px;
+    bottom: 20px;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
   }
+
   .hero-intro p {
     font-size: 13px !important;
   }

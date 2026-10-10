@@ -24,10 +24,10 @@ export default function HeroSection() {
         >
           <h1>
             Гривненская{" "}
-            <span style={{ color: "#ff5944", fontWeight: "700" }}>
+            <span style={{ fontWeight: "700"}}>
               токарная
             </span>{" "}
-            <span style={{ color: "#1c1c1c" }}>артель</span>
+            <span>артель</span>
           </h1>
 
           <div className="hero-intro-div">
